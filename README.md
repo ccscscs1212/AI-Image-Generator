@@ -11,3 +11,10 @@ AI-Image-Generator 是一个基于 Hugging Face Diffusers 的 AI 图像生成工
 ## 安装依赖
 ```bash
 pip install -r requirements.txt
+
+## 命令行生成
+python generate.py --prompt "一只在月光下的猫" --output images/cat.png
+
+## Web 前端
+ python app.py
+打开浏览器访问 http://localhost:5000
