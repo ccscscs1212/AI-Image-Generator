@@ -1,2 +1,13 @@
 # AI-Image-Generator
-这是一个使用 Python 和 Hugging Face Diffusers 库实现的 AI 图像生成工具，可以根据文字提示生成图片。项目包含命令行运行示例和简单的 Web 前端展示。
+
+## 项目简介
+AI-Image-Generator 是一个基于 Hugging Face Diffusers 的 AI 图像生成工具，支持根据文本描述生成高质量图片。
+
+## 功能特点
+- 文本生成图像
+- 命令行和 Web 前端展示
+- 图片可保存到本地
+
+## 安装依赖
+```bash
+pip install -r requirements.txt
